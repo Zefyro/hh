@@ -4,6 +4,8 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Tick---------------------------#
-execute as @e[type=#hh:monster,nbt=!{Health:1000.0f},tag=HH.Monster] at @s run function hh:mobs/test/hurt
+#---------------------------Hurt---------------------------#
+
+data merge block 0 0 0 {Text2:'[{"text":"Green Walker  ","color": "green","italic": false},{"text":"❤ ","color": "red"},{"score": {"name": "@e[type=#hh:monster,nbt=!{Health:1000.0f},tag=HH.Monster]","objective": "Health"},"color": "red"},{"text":" ❤","color": "red"}]'}
+data modify entity @s CustomName set from block 0 0 0 Text2
 #----------------------------------------------------------#
