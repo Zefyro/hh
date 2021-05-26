@@ -4,11 +4,7 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#--------------------------Health--------------------------#
-tag @s remove HH.Update-health
-function hh:stats/player/math/damage-taken
-scoreboard players operation @s M.Health -= @s DamageTaken
-scoreboard players operation @s Health = @s M.Health
-scoreboard players operation @s Health /= #Constant10 Health
-execute if score @s M.Health matches ..0 run function hh:stats/player/events/death
+#--------------------------Death---------------------------#
+scoreboard players set @s M.Health 2000
+scoreboard players set @s Health 200
 #----------------------------------------------------------#

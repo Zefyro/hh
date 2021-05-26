@@ -47,12 +47,19 @@ scoreboard objectives add AtkStat dummy
 scoreboard objectives add ArmStat dummy
 #--------------------------Health--------------------------#
 scoreboard objectives add Health dummy
+scoreboard players set #Constant10 Health 10
 scoreboard objectives add MaxHealth dummy
 scoreboard objectives add M.Health dummy
 scoreboard objectives add M.MaxHealth dummy
+scoreboard objectives add DamageTaken dummy
 scoreboard objectives add DamageResisted minecraft.custom:minecraft.damage_resisted
-#-------------------------Defence--------------------------#
-scoreboard objectives add Defence dummy
+scoreboard players set #Constant10 DamageResisted 10
+scoreboard players set #Constant4 DamageResisted 4
+scoreboard players set #Constant7 DamageResisted 7
+#-------------------------Defense--------------------------#
+scoreboard objectives add Defense dummy
+scoreboard objectives add DefensiveOutput dummy
+scoreboard players set #Constant10 DefensiveOutput 10
 #-------------------------Position-------------------------#
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy

@@ -6,6 +6,6 @@
 ############################################################
 #--------------------------Monster-------------------------#
 scoreboard players set @s Health 63
-scoreboard players set @s Defence 8
+scoreboard players set @s Defense 8
 tag @s remove HH.New
 #----------------------------------------------------------#

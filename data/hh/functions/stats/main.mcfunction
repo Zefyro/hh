@@ -5,6 +5,7 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Stats---------------------------#
-execute if entity @s[tag=HH.Update-Health] run function hh:stats/player/health
+tag @s[scores={DamageResisted=1..}] add HH.Update-health
+execute if entity @s[tag=HH.Update-health] run function hh:stats/player/health
 function hh:stats/player/get/main
 #----------------------------------------------------------#

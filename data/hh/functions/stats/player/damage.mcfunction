@@ -9,6 +9,6 @@ scoreboard players operation in HH.Math = @s P.Damage.Min
 scoreboard players operation in1 HH.Math = @s P.Damage.Max
 function hh:math/rng/range
 scoreboard players operation @s Next.Damage = out HH.Math
-function hh:stats/player/damage-math
+function hh:stats/player/math/next-damage
 #tellraw @s [{"text":"Next damage: ","color": "gold"},{"score": {"name": "@s", "objective": "Next.Damage"}}]
 #----------------------------------------------------------#

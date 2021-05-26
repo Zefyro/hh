@@ -17,9 +17,10 @@ scoreboard players set @s LevXP 51
 scoreboard players set @s APoints 0
 scoreboard players set @s SSPoints 1
 #> Health
-scoreboard players set @s BaseHealth 20000
-scoreboard players set @s MaxHealth 20000
-scoreboard players set @s Health 20000
+scoreboard players set @s Health 200
+scoreboard players set @s MaxHealth 200
+scoreboard players set @s M.MaxHealth 2000
+scoreboard players set @s M.Health 2000
 #> Mana
 scoreboard players set @s BaseMana 0
 scoreboard players set @s Mana 0
