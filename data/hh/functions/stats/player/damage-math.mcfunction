@@ -6,14 +6,14 @@
 ############################################################
 #--------------------------Damage--------------------------#
 #> floor((attackStat + specialDamage)*(weaponDamage + statsFromEquips)/enemyDefense)
-execute if score @s P.Type matches 1 run scoreboard players operation @s AtkStat = @s Power
-execute if score @s P.Type matches 2 run scoreboard players operation @s AtkStat = @s Range
-execute if score @s P.Type matches 3 run scoreboard players operation @s AtkStat = @s Magic
-execute if score @s P.Type matches 4 run scoreboard players operation @s AtkStat = @s Artillery
-execute if score @s P.Type matches 1 run scoreboard players operation @s ArmStat = @s APower
-execute if score @s P.Type matches 2 run scoreboard players operation @s ArmStat = @s ARange
-execute if score @s P.Type matches 3 run scoreboard players operation @s ArmStat = @s AMagic
-execute if score @s P.Type matches 4 run scoreboard players operation @s ArmStat = @s AArtillery
+execute if score @s S.Primary.Type matches 1 run scoreboard players operation @s AtkStat = @s Power
+execute if score @s S.Primary.Type matches 2 run scoreboard players operation @s AtkStat = @s Range
+execute if score @s S.Primary.Type matches 3 run scoreboard players operation @s AtkStat = @s Magic
+execute if score @s S.Primary.Type matches 4 run scoreboard players operation @s AtkStat = @s Artillery
+execute if score @s S.Primary.Type matches 1 run scoreboard players operation @s ArmStat = @s APower
+execute if score @s S.Primary.Type matches 2 run scoreboard players operation @s ArmStat = @s ARange
+execute if score @s S.Primary.Type matches 3 run scoreboard players operation @s ArmStat = @s AMagic
+execute if score @s S.Primary.Type matches 4 run scoreboard players operation @s ArmStat = @s AArtillery
 scoreboard players operation #temp Next.Damage = @s AtkStat
 scoreboard players operation #temp Next.Damage += @s S.Damage.Fire
 scoreboard players operation #temp Next.Damage += @s P.Damage.Fire

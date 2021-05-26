@@ -6,6 +6,7 @@
 ############################################################
 #--------------------------Stats---------------------------#
 scoreboard players operation @s S.Secondary.id = @s Secondary.id
+scoreboard players operation @s S.Secondary.Type = @s Secondary.Type
 execute store result score @s S.TwoHanded run data get entity @s Inventory[{Slot:-106b}].tag.Stats.TwoHanded
 execute store result score @s Secondary.Level run data get entity @s Inventory[{Slot:-106b}].tag.Stats.Level
 execute store result score @s S.Damage.Min run data get entity @s Inventory[{Slot:-106b}].tag.Stats.Damage.Min

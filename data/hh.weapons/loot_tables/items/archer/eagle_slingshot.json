@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Stats:{Level: 29, Damage:{Min: 55, Max: 73}, Special:{}, TwoHanded: true, Shop:{Cost: 22000, Value: 7699, Shopkeeper: \"Viper\"},Item:{Type: \"Range\",id: 10}},Unbreakable:1b, HideFlags:36,CustomModelData:10020010}"
+                "tag": "{Stats:{Level: 29, Damage:{Min: 55, Max: 73}, Special:{}, TwoHanded: true, Shop:{Cost: 22000, Value: 7699, Shopkeeper: \"Viper\"},Item:{Type: 2,id: 10}},Unbreakable:1b, HideFlags:36,CustomModelData:10020010}"
               },
               {
                 "function": "minecraft:set_lore",

@@ -5,7 +5,8 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #---------------------------Tick---------------------------#
-execute as @a[tag=HH.Stats] at @s run function hh:stats/main
-execute as @a[tag=HH.Stats] at @s run function hh:classes/main
-execute as @e[tag=HH.Monster] at @s run function hh:mobs/main
+effect give @s saturation 999999 255 true
+effect give @s resistance 999999 255 true
+execute if entity @s[tag=HH.Archer] run replaceitem entity @s hotbar.8 arrow 64
+kill @e[type=arrow,nbt={inGround:1b}]
 #----------------------------------------------------------#

@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Stats:{Level: 46, Damage:{Min: 34, Max: 51}, Special:{}, TwoHanded: false, Shop:{Cost: 54000, Value: 18900, Shopkeeper: \"Sneed\"},Item:{Type: \"Magic\",id: 18}},Unbreakable:1b, HideFlags:36,CustomModelData:10030018}"
+                "tag": "{Stats:{Level: 46, Damage:{Min: 34, Max: 51}, Special:{}, TwoHanded: false, Shop:{Cost: 54000, Value: 18900, Shopkeeper: \"Sneed\"},Item:{Type: 3,id: 18}},Unbreakable:1b, HideFlags:36,CustomModelData:10030018}"
               },
               {
                 "function": "minecraft:set_lore",

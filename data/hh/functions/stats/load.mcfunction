@@ -34,7 +34,10 @@ scoreboard objectives add APower dummy
 scoreboard objectives add ARange dummy
 scoreboard objectives add AMagic dummy
 scoreboard objectives add AArtillery dummy
-scoreboard objectives add P.Type dummy
+scoreboard objectives add Primary.Type dummy
+scoreboard objectives add Secondary.Type dummy
+scoreboard objectives add S.Primary.Type dummy
+scoreboard objectives add S.Secondary.Type dummy
 #--------------------------Stats---------------------------#
 scoreboard objectives add Power dummy
 scoreboard objectives add Range dummy
@@ -44,7 +47,10 @@ scoreboard objectives add AtkStat dummy
 scoreboard objectives add ArmStat dummy
 #--------------------------Health--------------------------#
 scoreboard objectives add Health dummy
-scoreboard objectives add DamageTaken dummy
+scoreboard objectives add MaxHealth dummy
+scoreboard objectives add M.Health dummy
+scoreboard objectives add M.MaxHealth dummy
+scoreboard objectives add DamageResisted minecraft.custom:minecraft.damage_resisted
 #-------------------------Defence--------------------------#
 scoreboard objectives add Defence dummy
 #-------------------------Position-------------------------#
