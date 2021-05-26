@@ -5,11 +5,12 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Health--------------------------#
+scoreboard players operation @p[tag=HH.Hurt-entity] Next.Damage /= @s Defence
 function hh:mobs/damage_indicator
 scoreboard players operation @s Health -= @p[tag=HH.Hurt-entity] Next.Damage
-execute if score @s Health matches ..0 run function hh:mobs/stats/kill
+execute if score @s Health matches ..0 run function hh:mobs/type/green_bouncer/kill
 execute as @p[tag=HH.Hurt-entity] run function hh:stats/player/damage
 tag @p[tag=HH.Hurt-entity] remove HH.Hurt-entity
-function hh:mobs/update-health
+function hh:mobs/type/green_bouncer/update-health
 data merge entity @s {Health:1000.0f}
 #----------------------------------------------------------#

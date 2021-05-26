@@ -4,8 +4,8 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#--------------------------Monster-------------------------#
-scoreboard players set @s Health 63
-scoreboard players set @s Defence 8
-tag @s remove HH.New
+#---------------------------Kill---------------------------#
+particle smoke ~ ~ ~ 
+tp @s ~ -128 ~
 #----------------------------------------------------------#
+

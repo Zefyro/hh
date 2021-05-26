@@ -5,5 +5,5 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #---------------------------Tick---------------------------#
-execute as @e[type=#hh:monster,nbt=!{Health:1000.0f},tag=HH.Monster] at @s run function hh:mobs/test/hurt
+execute as @e[type=#hh:monster,nbt=!{Health:1000.0f},tag=HH.Monster] at @s run function hh:mobs/hurt
 #----------------------------------------------------------#

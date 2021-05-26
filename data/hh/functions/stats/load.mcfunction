@@ -25,8 +25,33 @@ scoreboard objectives add S.Damage.Min dummy
 scoreboard objectives add P.Damage.Min dummy
 scoreboard objectives add S.Damage.Max dummy
 scoreboard objectives add P.Damage.Max dummy
+scoreboard objectives add S.Damage.Fire dummy
+scoreboard objectives add P.Damage.Fire dummy
+scoreboard objectives add S.Damage.Ice dummy
+scoreboard objectives add P.Damage.Ice dummy
 scoreboard objectives add Next.Damage dummy
+scoreboard objectives add APower dummy
+scoreboard objectives add ARange dummy
+scoreboard objectives add AMagic dummy
+scoreboard objectives add AArtillery dummy
+scoreboard objectives add P.Type dummy
+#--------------------------Stats---------------------------#
+scoreboard objectives add Power dummy
+scoreboard objectives add Range dummy
+scoreboard objectives add Magic dummy
+scoreboard objectives add Artillery dummy
+scoreboard objectives add AtkStat dummy
+scoreboard objectives add ArmStat dummy
 #--------------------------Health--------------------------#
 scoreboard objectives add Health dummy
 scoreboard objectives add DamageTaken dummy
+#-------------------------Defence--------------------------#
+scoreboard objectives add Defence dummy
+#-------------------------Position-------------------------#
+scoreboard objectives add x dummy
+scoreboard objectives add y dummy
+scoreboard objectives add z dummy
+scoreboard objectives add dx dummy
+scoreboard objectives add dy dummy
+scoreboard objectives add dz dummy
 #----------------------------------------------------------#
