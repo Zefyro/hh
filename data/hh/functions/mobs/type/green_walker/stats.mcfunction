@@ -5,6 +5,6 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Monster-------------------------#
-summon slime ~ ~ ~ {Tags:["HH.New"], Health: 1000.0f, Attributes:[{Base: 1000, Name:"minecraft:generic.max_health"}],Size:3}
-execute as @e[tag=HH.New] run function hh:mobs/spawn/slime-health
+scoreboard players set @s Health 63
+tag @s remove HH.New
 #----------------------------------------------------------#

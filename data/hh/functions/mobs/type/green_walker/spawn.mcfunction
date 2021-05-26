@@ -5,6 +5,6 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Monster-------------------------#
-scoreboard players set @s Health 100
-tag @s remove HH.New
+summon zombie ~ ~ ~ {Tags:["HH.New"], Health: 1000.0f, Attributes:[{Base: 1000, Name:"minecraft:generic.max_health"}],IsBaby: true, ArmorItems:[{},{},{},{}]}
+execute as @e[type=#hh:monster,tag=HH.New] run function hh:mobs/type/green_walker/stats
 #----------------------------------------------------------#
