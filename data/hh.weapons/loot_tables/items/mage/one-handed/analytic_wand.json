@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 109, Damage:{Min: 65, Max: 96}, Special:{}, TwoHanded: false, Shop:{Cost: 305000, Value: 106750, Shopkeeper: \"Ricardo\"},Item:{Type: \"Magic\",id: 27}},Unbreakable:1b, HideFlags:36,CustomModelData:10030027}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "109", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "65-96", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "No", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Analyzes half of the wielder's", "color": "gray", "italic": false},
+                  {"text": "magic potential and releases", "color": "gray", "italic": false},
+                  {"text": "it as damage.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Analytic Wand",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

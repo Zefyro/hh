@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 40, Damage:{Min: 30, Max: 46}, Special:{}, TwoHanded: false, Shop:{Cost: 36000, Value: 12600, Shopkeeper: \"Viper\"},Item:{Type: \"Magic\",id: 16}},Unbreakable:1b, HideFlags:36,CustomModelData:10030016}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "40", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "30-46", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "No", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Magically enchanted through", "color": "gray", "italic": false},
+                  { "text": "sacred Indian rituals.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Indian Wand",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

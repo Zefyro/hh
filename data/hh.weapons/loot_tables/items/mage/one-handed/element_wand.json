@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 95, Damage:{Min: 58, Max: 88}, Special:{}, TwoHanded: false, Shop:{Cost: 246000, Value: 86100, Shopkeeper: \"Carter\"},Item:{Type: \"Magic\",id: 25}},Unbreakable:1b, HideFlags:36,CustomModelData:10030025}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "95", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "58-88", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "No", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Spews attacks with magic energy", "color": "gray", "italic": false},
+                  {"text": "from all of the elements combined.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Element Wand",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

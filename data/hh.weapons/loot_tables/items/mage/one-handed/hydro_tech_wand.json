@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 373, Damage:{Min: 139, Max: 168}, Special:{}, TwoHanded: false, Shop:{Cost: 5900000, Value: 2064999, Shopkeeper: \"Isaac Jr\"},Item:{Type: \"Magic\",id: 35}},Unbreakable:1b, HideFlags:36,CustomModelData:10030035}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "373", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "139-168", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "No", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Uses advanced water mechanics", "color": "gray", "italic": false},
+                  {"text": "on a molecular level to produce", "color": "gray", "italic": false},
+                  {"text": "a highly advanced wand.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Hydro Tech Wand",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

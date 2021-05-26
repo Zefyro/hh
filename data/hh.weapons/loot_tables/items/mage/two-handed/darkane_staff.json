@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 193, Damage:{Min: 154, Max: 192}, Special:{}, TwoHanded: true, Shop:{Cost: 800000, Value: 280000, Shopkeeper: \"Bartholomew\"},Item:{Type: \"Magic\",id: 32}},Unbreakable:1b, HideFlags:36,CustomModelData:10030032}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "193", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "154-192", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "Yes", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Without the proper wielder,", "color": "gray", "italic": false},
+                  {"text": "they can fly out of the wielder's", "color": "gray", "italic": false},
+                  {"text": "hand never to be seen again.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Darkane Staff",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

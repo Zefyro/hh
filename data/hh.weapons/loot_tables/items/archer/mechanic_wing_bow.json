@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 30, Damage:{Min: 56, Max: 84}, Special:{}, TwoHanded: true, Shop:{Cost: 23500, Value: 8225, Shopkeeper: \"Snoop\"},Item:{Type: \"Range\",id: 11}},Unbreakable:1b, HideFlags:36,CustomModelData:10020011}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "30", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "56-84", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "Yes", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Consists of pure metal, making", "color": "gray", "italic": false},
+                  {"text": "it heavier but very strong.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Mechanic Wing Bow",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

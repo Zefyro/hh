@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 110, Damage:{Min: 102, Max: 161}, Special:{}, TwoHanded: true, Shop:{Cost: 360000, Value: 125999, Shopkeeper: \"Anoop\"},Item:{Type: \"Range\",id: 21}},Unbreakable:1b, HideFlags:36,CustomModelData:10020021}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "110", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "102-161", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "Yes", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Very old but powerful and", "color": "gray", "italic": false},
+                  {"text": "lined with large spikes.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Archaic Bow",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

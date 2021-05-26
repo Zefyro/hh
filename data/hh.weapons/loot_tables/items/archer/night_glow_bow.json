@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 58, Damage:{Min: 88, Max: 116}, Special:{}, TwoHanded: true, Shop:{Cost: 98000, Value: 34300, Shopkeeper: \"Chance\"},Item:{Type: \"Range\",id: 16}},Unbreakable:1b, HideFlags:36,CustomModelData:10020016}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "58", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "88-116", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "Yes", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Sleek and lightweight,", "color": "gray", "italic": false},
+                  {"text": "and able to be shot", "color": "gray", "italic": false},
+                  {"text": "easy with skill.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Night Glow Bow",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

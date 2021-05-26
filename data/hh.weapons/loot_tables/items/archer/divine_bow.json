@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 300, Damage:{Min: 224, Max: 244}, Special:{}, TwoHanded: true, Shop:{Cost: 3550000, Value: 1242500, Shopkeeper: \"Scott\"},Item:{Type: \"Range\",id: 24}},Unbreakable:1b, HideFlags:36,CustomModelData:10020024}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "300", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "224-244", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "Yes", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Its arrows seem to fly", "color": "gray", "italic": false},
+                  {"text": "harmlessly at their enemies,", "color": "gray", "italic": false},
+                  {"text": "yet deal huge amounts of damage.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Divine Bow",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

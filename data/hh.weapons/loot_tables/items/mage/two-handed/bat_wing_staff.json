@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 40, Damage:{Min: 45, Max: 70}, Special:{}, TwoHanded: true, Shop:{Cost: 45000, Value: 15749, Shopkeeper: \"Chance\"},Item:{Type: \"Magic\",id: 15}},Unbreakable:1b, HideFlags:36,CustomModelData:10030015}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "40", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "45-70", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "Yes", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "The fossilized wing of", "color": "gray", "italic": false},
+                  {"text": "a bat forms the end of", "color": "gray", "italic": false},
+                  {"text": "the staff and contains", "color": "gray", "italic": false},
+                  {"text": "magical energy.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Bat Wing Staff",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

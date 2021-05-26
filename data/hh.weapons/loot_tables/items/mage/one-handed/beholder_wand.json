@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 84, Damage:{Min: 52, Max: 85}, Special:{}, TwoHanded: false, Shop:{Cost: 175000, Value: 61249, Shopkeeper: \"Wallace\"},Item:{Type: \"Magic\",id: 23}},Unbreakable:1b, HideFlags:36,CustomModelData:10030023}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "84", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "52-85", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "No", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Crafted with the overwhelming", "color": "gray", "italic": false},
+                  {"text": "magic of a Dark Beholder's scales.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Beholder Wand",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

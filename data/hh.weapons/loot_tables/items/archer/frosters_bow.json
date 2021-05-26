@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 63, Damage:{Min: 82, Max: 113}, Special:{Damage:{Ice: 9}}, TwoHanded: true, Shop:{Cost: 116000, Value: 40600, Shopkeeper: \"Sneed\"},Item:{Type: \"Range\",id: 17}},Unbreakable:1b, HideFlags:36,CustomModelData:10020017}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "63", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "82-113", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Ice Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "+9", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "Yes", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Covered in nevermelting", "color": "gray", "italic": false},
+                  {"text": "ice, and able to give its", "color": "gray", "italic": false},
+                  {"text": "target instant frostbite.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Frosters Bow",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

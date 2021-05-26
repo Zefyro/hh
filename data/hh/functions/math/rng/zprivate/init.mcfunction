@@ -1,0 +1,1 @@
+execute unless score $Seed HH.Math matches ..0 unless score $Seed HH.Math matches 1.. run function hh:math/rng/zprivate/uuid_reset

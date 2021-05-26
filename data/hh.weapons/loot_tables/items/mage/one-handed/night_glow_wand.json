@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 34, Damage:{Min: 23, Max: 37}, Special:{}, TwoHanded: false, Shop:{Cost: 16000, Value: 5600, Shopkeeper: \"Travis\"},Item:{Type: \"Magic\",id: 11}},Unbreakable:1b, HideFlags:36,CustomModelData:10030011}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "34", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Damage: ", "italic": false, "color": "gray"}, 
+                    {"text": "23-37", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
+                    {"text": "No", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Contains a faint glow", "color": "gray", "italic": false},
+                  { "text": "that can be used to", "color": "gray", "italic": false},
+                  { "text": "attack enemies. The Night", "color": "gray", "italic": false},
+                  { "text": "Glow Wand contains 15%", "color": "gray", "italic": false},
+                  {"text": "moonlight energy.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Night Glow Wand",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
