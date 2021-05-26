@@ -28,4 +28,5 @@ scoreboard objectives add P.Damage.Max dummy
 scoreboard objectives add Next.Damage dummy
 #--------------------------Health--------------------------#
 scoreboard objectives add Health dummy
+scoreboard objectives add DamageTaken dummy
 #----------------------------------------------------------#

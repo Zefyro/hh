@@ -8,7 +8,7 @@
 advancement revoke @s only hh:dealt_damage
 #---------------------------Hurt---------------------------#
 tag @s add HH.Hurt-entity
-execute as @e[type=#hh:monster,nbt=!{Health:1000.0f}] at @s run function hh:mobs/health/hurt
+execute as @e[type=#hh:monster,nbt=!{Health:1000.0f}] at @s run function hh:mobs/stats/hurt
 tag @s remove HH.Hurt-entity
 function hh:stats/player/damage
 #----------------------------------------------------------#

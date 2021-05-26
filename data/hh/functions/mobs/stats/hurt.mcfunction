@@ -6,6 +6,7 @@
 ############################################################
 #--------------------------Health--------------------------#
 data merge entity @s {Health:1000.0f}
+function hh:mobs/damage_indicator
 scoreboard players operation @s Health -= @p[tag=HH.Hurt-entity] Next.Damage
-execute if score @s Health matches ..0 run function hh:mobs/health/kill
+execute if score @s Health matches ..0 run function hh:mobs/stats/kill
 #----------------------------------------------------------#
