@@ -4,7 +4,10 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#--------------------------Armor---------------------------#
+#----------------------------ID----------------------------#
+scoreboard objectives add ID dummy
+execute unless score #ID.Next ID matches 1.. run scoreboard players set #ID.Next ID 1
+#---------------------------Armor--------------------------#
 scoreboard objectives add Helmet.id dummy
 scoreboard objectives add Chestplate.id dummy
 scoreboard objectives add Leggings.id dummy
