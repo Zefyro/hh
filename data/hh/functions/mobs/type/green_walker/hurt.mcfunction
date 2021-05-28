@@ -5,6 +5,7 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Health--------------------------#
+execute as @p[tag=HH.Hurt-entity] run function hh:stats/player/events/hurt-entity
 scoreboard players operation @p[tag=HH.Hurt-entity] Next.Damage /= @s Defense
 function hh:mobs/damage_indicator
 scoreboard players operation @s Health -= @p[tag=HH.Hurt-entity] Next.Damage

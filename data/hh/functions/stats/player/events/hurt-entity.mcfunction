@@ -5,7 +5,8 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #---------------------------Hurt---------------------------#
-
-data merge block 0 0 0 {Text2:'[{"text":"Green Walker  ","color": "green","italic": false},{"text":"❤ ","color": "red"},{"score": {"name": "@e[type=#hh:monster,nbt=!{Health:1000.0f},tag=HH.Monster]","objective": "Health"},"color": "red"},{"text":" ❤","color": "red"}]'}
-data modify entity @s CustomName set from block 0 0 0 Text2
+execute if entity @s[scores={Primary.Type=2}] if score @s DamageDealt matches 1.. run scoreboard players set @s Next.Damage 0
+execute if entity @s[scores={Primary.Type=4}] if score @s DamageDealt matches 1.. run scoreboard players set @s Next.Damage 0
+execute if entity @s[scores={Primary.Type=3}] if score @s DamageDealt matches 1.. run scoreboard players operation @s Next.Damage /= #Constant5 Next.Damage
+scoreboard players reset @s DamageDealt
 #----------------------------------------------------------#

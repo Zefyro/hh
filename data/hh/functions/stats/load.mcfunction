@@ -33,6 +33,7 @@ scoreboard objectives add P.Damage.Fire dummy
 scoreboard objectives add S.Damage.Ice dummy
 scoreboard objectives add P.Damage.Ice dummy
 scoreboard objectives add Next.Damage dummy
+scoreboard players set #Constant5 Next.Damage 5
 scoreboard objectives add APower dummy
 scoreboard objectives add ARange dummy
 scoreboard objectives add AMagic dummy
@@ -41,6 +42,7 @@ scoreboard objectives add Primary.Type dummy
 scoreboard objectives add Secondary.Type dummy
 scoreboard objectives add S.Primary.Type dummy
 scoreboard objectives add S.Secondary.Type dummy
+scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt
 #--------------------------Stats---------------------------#
 scoreboard objectives add Power dummy
 scoreboard objectives add Range dummy
