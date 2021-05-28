@@ -9,6 +9,6 @@ tag @s remove HH.Update-health
 function hh:stats/player/math/damage-taken
 scoreboard players operation @s M.Health -= @s DamageTaken
 scoreboard players operation @s Health = @s M.Health
-scoreboard players operation @s Health /= #Constant10 Health
+scoreboard players operation @s Health /= #10 Constants
 execute if score @s M.Health matches ..0 run function hh:stats/player/events/death
 #----------------------------------------------------------#

@@ -6,6 +6,8 @@
 ############################################################
 #---------------------------Kill---------------------------#
 particle smoke ~ ~ ~ 
+scoreboard players operation @p[tag=HH.Hurt-entity] XP += @s XP
+execute as @p[tag=HH.Hurt-entity] run function hh:stats/player/level
 tp @s ~ -128 ~
 #----------------------------------------------------------#
 

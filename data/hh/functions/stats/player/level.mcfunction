@@ -4,10 +4,7 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Kill---------------------------#
-particle smoke ~ ~ ~ 
-scoreboard players operation @p[tag=HH.Hurt-entity] XP += @s XP
-execute as @p[tag=HH.Hurt-entity] run function hh:stats/player/level
-tp @s ~ -128 ~
+#--------------------------Level---------------------------#
+execute if score @s XP >= @s LevXP run function hh:stats/player/events/level-up
+function hh:stats/player/math/level-experience
 #----------------------------------------------------------#
-

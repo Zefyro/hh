@@ -7,6 +7,6 @@
 #---------------------------Hurt---------------------------#
 execute if entity @s[scores={Primary.Type=2}] if score @s DamageDealt matches 1.. run scoreboard players set @s Next.Damage 0
 execute if entity @s[scores={Primary.Type=4}] if score @s DamageDealt matches 1.. run scoreboard players set @s Next.Damage 0
-execute if entity @s[scores={Primary.Type=3}] if score @s DamageDealt matches 1.. run scoreboard players operation @s Next.Damage /= #Constant5 Next.Damage
+execute if entity @s[scores={Primary.Type=3}] if score @s DamageDealt matches 1.. run scoreboard players operation @s Next.Damage /= #5 Constants
 scoreboard players reset @s DamageDealt
 #----------------------------------------------------------#

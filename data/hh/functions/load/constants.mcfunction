@@ -5,10 +5,15 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #---------------------------Load---------------------------#
-function hh:load/world
-function hh:load/constants
-function hh:math/load
-function hh:stats/load
-#--------------------------Message-------------------------#
-say Reloaded!
+scoreboard objectives add Constants dummy
+scoreboard players set #1 Constants 1
+scoreboard players set #2 Constants 2
+scoreboard players set #3 Constants 3
+scoreboard players set #4 Constants 4
+scoreboard players set #5 Constants 5
+scoreboard players set #6 Constants 6
+scoreboard players set #7 Constants 7
+scoreboard players set #8 Constants 8
+scoreboard players set #9 Constants 9
+scoreboard players set #10 Constants 10
 #----------------------------------------------------------#

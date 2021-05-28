@@ -6,15 +6,15 @@
 ############################################################
 #--------------------------Damage--------------------------#
 #> (random integer from monster's power * 0.4 to monster's power * 0.7)- Defensive Output
-scoreboard players operation @s DamageResisted /= #Constant DamageResisted
+scoreboard players operation @s DamageResisted /= #10 Constants
 scoreboard players operation in HH.Math = @s DamageResisted
 scoreboard players operation in1 HH.Math = @s DamageResisted
-scoreboard players operation in HH.Math *= #Constant4 DamageResisted
-scoreboard players operation in1 HH.Math *= #Constant7 DamageResisted
+scoreboard players operation in HH.Math *= #4 Constants
+scoreboard players operation in1 HH.Math *= #7 Constants
 function hh:math/rng/range
 scoreboard players operation @s DamageTaken = out HH.Math
-scoreboard players operation @s DefensiveOutput *= #Constant10 DefensiveOutput
+scoreboard players operation @s DefensiveOutput *= #10 Constants
 scoreboard players operation @s DamageTaken -= @s DefensiveOutput
-scoreboard players operation @s DefensiveOutput /= #Constant10 DefensiveOutput
+scoreboard players operation @s DefensiveOutput /= #10 Constants
 scoreboard players reset @s DamageResisted
 #----------------------------------------------------------#

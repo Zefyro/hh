@@ -4,10 +4,8 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Kill---------------------------#
-particle smoke ~ ~ ~ 
-scoreboard players operation @p[tag=HH.Hurt-entity] XP += @s XP
-execute as @p[tag=HH.Hurt-entity] run function hh:stats/player/level
-tp @s ~ -128 ~
+#--------------------------Level---------------------------#
+experience add @s 1 levels
+scoreboard players operation @s XP -= @s LevXP
+playsound block.note_block.bell player @s ~ ~ ~
 #----------------------------------------------------------#
-
