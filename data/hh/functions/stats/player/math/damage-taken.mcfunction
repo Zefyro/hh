@@ -15,6 +15,7 @@ function hh:math/rng/range
 scoreboard players operation @s DamageTaken = out HH.Math
 scoreboard players operation @s DefensiveOutput *= #10 Constants
 scoreboard players operation @s DamageTaken -= @s DefensiveOutput
+execute if score @s DamageTaken matches ..0 run scoreboard players set @s DamageTaken 0
 scoreboard players operation @s DefensiveOutput /= #10 Constants
 scoreboard players reset @s DamageResisted
 #----------------------------------------------------------#
