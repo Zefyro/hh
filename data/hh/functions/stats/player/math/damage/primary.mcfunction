@@ -5,8 +5,8 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Damage--------------------------#
-scoreboard players reset @s Next.Damage
-execute if score @s Level >= @s Primary.Level run function hh:stats/player/math/damage/primary
-execute if score @s Level >= @s Primary.Level if score @s Level >= @s Secondary.Level if score @s P.TwoHanded matches 0 if score @s S.TwoHanded matches 0 run function hh:stats/player/math/damage/secondary
-function hh:stats/player/math/damage/next
+scoreboard players operation in HH.Math = @s P.Damage.Min
+scoreboard players operation in1 HH.Math = @s P.Damage.Max
+function hh:math/rng/range
+scoreboard players operation @s Next.Damage += out HH.Math
 #----------------------------------------------------------#
