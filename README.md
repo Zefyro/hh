@@ -18,7 +18,7 @@ The HH datapack is for a map I'm currently working on.
 - [ ] Items
   - [x] Books
   - [x] Food
-  - [ ] Consumables
+  - [x] Miscellaneous
 - [ ] Fishing
 - [ ] Chopping
 - [ ] NPCs
