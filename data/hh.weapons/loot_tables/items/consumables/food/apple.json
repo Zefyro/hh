@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_void",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Restore: {Health: 50, Mana: 0}, Shop:{Cost: 50, Value: 18, Shopkeeper: [\"Geraldo\"]},Item:{Type: 1000, id: 1}},CustomModelData:19001001}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {"text": "Restores 50 HP", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Apple",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

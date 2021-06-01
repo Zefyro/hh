@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_void",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Restore: {Health: 400, Mana: 100}, Shop:{Cost: 300, Value: 105, Shopkeeper: [\"Geraldo\"]},Item:{Type: 1000, id: 4}},CustomModelData:19001004}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {"text": "Restores 400 HP", "color": "gray", "italic": false},
+                  {"text": "and 100 MP", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Watermelon",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

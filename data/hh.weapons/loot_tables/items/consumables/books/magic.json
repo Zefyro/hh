@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_void",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Add: {Magic: 1}, Shop:{Cost: 55000, Value: 19250, Shopkeeper: [\"Lewis\"]},Item:{Type: 1001, id: 2}},CustomModelData:19002002}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {"text": "Adds one to your magic when used.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Book of Magic",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

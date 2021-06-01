@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_void",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Shop:{Cost: 0, Value: 0, Shopkeeper: [\"Payvault\"]},Item:{Type: 1002, id: 1}},CustomModelData:19003001}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {"text": "Use to evolve a pet at any level.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Evolution Crystal",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

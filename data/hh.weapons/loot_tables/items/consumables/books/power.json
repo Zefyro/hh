@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_void",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Add: {Power: 1}, Shop:{Cost: 55000, Value: 19250, Shopkeeper: [\"Lewis\"]},Item:{Type: 1001, id: 1}},CustomModelData:19002001}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {"text": "Adds one to your power when used.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Book of Power",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

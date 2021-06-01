@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_void",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Restore: {Health: 20, Mana: 100}, Shop:{Cost: 35, Value: 12, Shopkeeper: [\"Geraldo\", \"Carter\"]},Item:{Type: 1000, id: 2}},CustomModelData:19001002}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {"text": "Restores 20 HP", "color": "gray", "italic": false},
+                  {"text": "and 100 MP", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Banana",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

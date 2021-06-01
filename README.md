@@ -16,8 +16,9 @@ The HH datapack is for a map I'm currently working on.
   - [x] Magic
   - [ ] Artillery
 - [ ] Items
-  - [ ] Books
-  - [ ] Food
+  - [x] Books
+  - [x] Food
+  - [ ] Consumables
 - [ ] Fishing
 - [ ] Chopping
 - [ ] NPCs
