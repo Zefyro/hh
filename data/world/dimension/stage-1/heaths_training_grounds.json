@@ -1,0 +1,19 @@
+{
+    "type": "world:stage-1",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "world:stage-1",
+        "layers": [
+          {
+            "block": "minecraft:air",
+            "height": 1
+          }
+        ],
+        "structures": {
+          "structures": {
+          }
+        }
+      }
+    }
+  }
