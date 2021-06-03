@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 90, Armor: {Defense: 28, Power: 4, Range: 0, Magic: 20, Artillery: 0, Luck: 0, Heal: 10, Speed: 0}, Shop:{Cost: 80000, Value: 28000, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 26}},CustomModelData:10110026}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "90", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "28", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "4", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "20", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Magic energy pulses into the", "color": "gray", "italic": false},
+                  {"text": "ground with each step.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Serpent Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

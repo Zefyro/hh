@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 40, Armor: {Defense: 19, Power: 2, Range: 2, Magic: 12, Artillery: 0, Luck: 0, Heal: 6, Speed: 0}, Shop:{Cost: 16000, Value: 5600, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 13}},CustomModelData:10110013}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "40", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "19", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "2", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Range: ", "italic": false, "color": "gray"}, 
+                    {"text": "2", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "12", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "I hope they don't break when I walk in them.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Pink Crystal Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

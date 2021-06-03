@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 18, Armor: {Defense: 8, Power: 1, Range: 0, Magic: 6, Artillery: 0, Luck: 0, Heal: 3, Speed: 0}, Shop:{Cost: 4500, Value: 1575, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 8}},CustomModelData:10110008}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "18", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "8", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "1", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "6", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Cursed with something other", "color": "gray", "italic": false},
+                  {"text": "than your smelly feet.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Cursed Shoes",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

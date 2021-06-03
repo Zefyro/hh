@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 60, Armor: {Defense: 28, Power: 0, Range: 13, Magic: 0, Artillery: 0, Luck: 4, Heal: 0, Speed: 0}, Shop:{Cost: 40000, Value: 14000, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 20}},CustomModelData:10110020}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "60", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "28", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Range: ", "italic": false, "color": "gray"}, 
+                    {"text": "13", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Lightweight with unshatterable fins", "color": "gray", "italic": false},
+                  {"text": "that protect the Achilles tendon.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Achilles Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

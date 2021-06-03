@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 299, Armor: {Defense: 58, Power: 0, Range: 0, Magic: 40, Artillery: 0, Luck: 0, Heal: 0, Speed: 0}, Shop:{Cost: 3570000, Value: 1249500, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 36}},CustomModelData:10110036}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "299", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "58", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "40", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "You will have truly magical", "color": "gray", "italic": false},
+                  {"text": "feet wearing these.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Empowered Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

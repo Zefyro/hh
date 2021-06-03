@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 168, Armor: {Defense: 42, Power: 0, Range: 0, Magic: 23, Artillery: 0, Luck: 0, Heal: 11, Speed: 0}, Shop:{Cost: 550000, Value: 192500, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 31}},CustomModelData:10110031}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "168", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "42", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "23", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Since this boot is made from water", "color": "gray", "italic": false},
+                  {"text": "molecules, does that make it water proof?", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Hydro Tech Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

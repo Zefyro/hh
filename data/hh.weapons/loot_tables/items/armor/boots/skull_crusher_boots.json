@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 85, Armor: {Defense: 42, Power: 15, Range: 0, Magic: 0, Artillery: 0, Luck: 0, Heal: 0, Speed: 0}, Shop:{Cost: 150000, Value: 52500, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 25}},CustomModelData:10110025}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "85", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "42", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "15", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Traces of skull bones can be", "color": "gray", "italic": false},
+                  {"text": "seen mixed in with the metal.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Skull Crusher Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

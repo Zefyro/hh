@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 101, Armor: {Defense: 34, Power: 0, Range: 16, Magic: 0, Artillery: 0, Luck: 5, Heal: 0, Speed: 0}, Shop:{Cost: 95000, Value: 33250, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 28}},CustomModelData:10110028}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "101", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "34", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Range: ", "italic": false, "color": "gray"}, 
+                    {"text": "16", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "A bunch of fused things from", "color": "gray", "italic": false},
+                  {"text": "nature that fit onto your feet.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Earth Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

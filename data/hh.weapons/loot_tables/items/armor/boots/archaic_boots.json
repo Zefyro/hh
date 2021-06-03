@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 72, Armor: {Defense: 31, Power: 5, Range: 14, Magic: 0, Artillery: 0, Luck: 4, Heal: 0, Speed: 0}, Shop:{Cost: 60000, Value: 21000, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 23}},CustomModelData:10110023}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "72", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "31", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "5", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Range: ", "italic": false, "color": "gray"}, 
+                    {"text": "14", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Very agile boots with a single", "color": "gray", "italic": false},
+                  {"text": "wrap around the toes.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Archaic Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

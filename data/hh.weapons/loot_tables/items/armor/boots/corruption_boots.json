@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 298, Armor: {Defense: 59, Power: 0, Range: 0, Magic: 0, Artillery: 38, Luck: 0, Heal: 0, Speed: 0}, Shop:{Cost: 3500000, Value: 1225000, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 35}},CustomModelData:10110035}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "298", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "59", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Artillery: ", "italic": false, "color": "gray"}, 
+                    {"text": "38", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Instead of having stinky feet. You", "color": "gray", "italic": false},
+                  {"text": "will have extremely strong feet", "color": "gray", "italic": false},
+                  {"text": "wearing these.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Corruption Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

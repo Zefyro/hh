@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 20, Armor: {Defense: 10, Power: 1, Range: 0, Magic: 0, Artillery: 7, Luck: 0, Heal: 0, Speed: 8}, Shop:{Cost: 5000, Value: 1750, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 10}},CustomModelData:10110010}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "20", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "10", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "1", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Artillery: ", "italic": false, "color": "gray"}, 
+                    {"text": "7", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Smells like it's been worn by dozens", "color": "gray", "italic": false},
+                  {"text": "of dirty pirates. At least it'll", "color": "gray", "italic": false},
+                  {"text": "protect your feet.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Pirate Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

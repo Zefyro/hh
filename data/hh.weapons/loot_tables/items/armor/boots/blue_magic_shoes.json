@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 7, Armor: {Defense: 6, Power: 0, Range: 0, Magic: 3, Artillery: 0, Luck: 0, Heal: 1, Speed: 0}, Shop:{Cost: 1200, Value: 420, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 5}},CustomModelData:10110005}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "7", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "6", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "3", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Footwear for the aspiring magician.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Blue Magic Shoes",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

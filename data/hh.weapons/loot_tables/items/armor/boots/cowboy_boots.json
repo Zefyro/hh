@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 7, Armor: {Defense: 7, Power: 0, Range: 0, Magic: 0, Artillery: 5, Luck: 0, Heal: 0, Speed: 6}, Shop:{Cost: 1250, Value: 437, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 6}},CustomModelData:10110006}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "7", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "7", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Artillery: ", "italic": false, "color": "gray"}, 
+                    {"text": "5", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Nice tough boots ready to work and", "color": "gray", "italic": false},
+                  {"text": "play hard. Ready to take a beating.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Cowboy Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

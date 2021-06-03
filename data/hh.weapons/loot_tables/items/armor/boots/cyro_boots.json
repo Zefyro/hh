@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 225, Armor: {Defense: 64, Power: 24, Range: 0, Magic: 0, Artillery: 0, Luck: 0, Heal: 0, Speed: 0}, Shop:{Cost: 1200000, Value: 420000, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 34}},CustomModelData:10110034}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "225", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "64", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "24", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "So cold your toes will probably", "color": "gray", "italic": false},
+                  {"text": "stick together and become a web foot!", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Cyro Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

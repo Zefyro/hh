@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 50, Armor: {Defense: 32, Power: 9, Range: 2, Magic: 0, Artillery: 0, Luck: 0, Heal: 0, Speed: 0}, Shop:{Cost: 37000, Value: 12950, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 18}},CustomModelData:10110018}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "50", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "32", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "9", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Range: ", "italic": false, "color": "gray"}, 
+                    {"text": "2", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Dino-skin boots with spiked", "color": "gray", "italic": false},
+                  {"text": "bottoms for extra grip.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Spiked Dino Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

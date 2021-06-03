@@ -12,6 +12,11 @@ Feel free to join the project's [discord server](https://discord.gg/xfeChMBtC2).
   - [ ] Mage
   - [ ] Cowboy
 - [ ] Armor
+  - [ ] Helmets
+  - [ ] Chestplates
+  - [ ] Leggings
+  - [x] Boots
+  - [ ] Special
 - [ ] Weapons
   - [ ] Melee
   - [x] Range

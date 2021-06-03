@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 23, Armor: {Defense: 20, Power: 4, Range: 0, Magic: 0, Artillery: 0, Luck: 0, Heal: 0, Speed: 0}, Shop:{Cost: 8000, Value: 2800, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 11}},CustomModelData:10110011}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "23", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "20", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "4", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Solid boots made of pure magnesium.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Magnesium Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

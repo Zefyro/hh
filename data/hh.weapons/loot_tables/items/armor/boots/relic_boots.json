@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 53, Armor: {Defense: 22, Power: 2, Range: 0, Magic: 16, Artillery: 0, Luck: 0, Heal: 8, Speed: 0}, Shop:{Cost: 28000, Value: 9800, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 19}},CustomModelData:10110019}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "53", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "22", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "2", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "16", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Pointed magic shoes worn", "color": "gray", "italic": false},
+                  {"text": "by ancient wizards.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Relic Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

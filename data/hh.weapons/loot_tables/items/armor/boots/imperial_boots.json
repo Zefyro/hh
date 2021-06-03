@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 65, Armor: {Defense: 35, Power: 10, Range: 0, Magic: 0, Artillery: 0, Luck: 0, Heal: 0, Speed: 0}, Shop:{Cost: 65000, Value: 22750, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 21}},CustomModelData:10110021}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "65", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "35", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "10", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Dense boots with a spike on the", "color": "gray", "italic": false},
+                  {"text": "top for some painful kicks.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Imperial Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 100, Armor: {Defense: 36, Power: 4, Range: 0, Magic: 0, Artillery: 12, Luck: 0, Heal: 0, Speed: 14}, Shop:{Cost: 101000, Value: 35350, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 27}},CustomModelData:10110027}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "100", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "36", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Power: ", "italic": false, "color": "gray"}, 
+                    {"text": "4", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Artillery: ", "italic": false, "color": "gray"}, 
+                    {"text": "12", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Professionally fabricated to", "color": "gray", "italic": false},
+                  {"text": "articulate the feet. It could", "color": "gray", "italic": false},
+                  {"text": "do without the strands however.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Valor Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

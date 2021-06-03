@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 40, Armor: {Defense: 19, Power: 0, Range: 0, Magic: 13, Artillery: 0, Luck: 0, Heal: 6, Speed: 0}, Shop:{Cost: 16000, Value: 5600, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 14}},CustomModelData:10110014}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "40", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "19", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Magic: ", "italic": false, "color": "gray"}, 
+                    {"text": "13", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Just like Cinderella's slipper,", "color": "gray", "italic": false},
+                  {"text": "except designed for combat.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Blue Crystal Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

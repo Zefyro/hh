@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Stats:{Level: 45, Armor: {Defense: 21, Power: 0, Range: 2, Magic: 0, Artillery: 11, Luck: 0, Heal: 0, Speed: 13}, Shop:{Cost: 22000, Value: 7699, Shopkeeper: [\"Sam Shoe\"]},Item:{Type: 401, id: 15}},CustomModelData:10110015}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {"text": "Required level: ", "italic": false, "color": "gray"},
+                    {"text": "45", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Defense: ", "italic": false, "color": "gray"}, 
+                    {"text": "21", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Range: ", "italic": false, "color": "gray"}, 
+                    {"text": "2", "italic": false, "color": "white"}
+                  ],
+                  [
+                    {"text": "Artillery: ", "italic": false, "color": "gray"}, 
+                    {"text": "11", "italic": false, "color": "white"}
+                  ],
+                  "",
+                  {"text": "Not only good for keeping out chemicals,", "color": "gray", "italic": false},
+                  {"text": "but can be easily washed.", "color": "gray", "italic": false}
+                ],
+                "replace": false
+              },
+
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Chemical Boots",
+                  "italic":false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
