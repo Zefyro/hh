@@ -8,7 +8,6 @@
     "temperature_modifier": "none",
     "category": "the_end",
     "player_spawn_friendly": false,
-    "fixed_time": 6000,
     "effects": {
       "sky_color": 6618977,
       "fog_color": 10352319,
