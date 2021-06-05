@@ -6,39 +6,38 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:bow",
+            "name": "minecraft:warped_fungus_on_a_stick",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Stats:{Level: 43, Damage:{Min: 62, Max: 90}, Special:{Damage:{Fire: 7}}, TwoHanded: true, Shop:{Cost: 45000, Value: 15749, Shopkeeper: \"Wallace\"},Item:{Type: 2,id: 12}},Unbreakable:1b, HideFlags:36,CustomModelData:10020012}"
+                "tag": "{Stats:{Level: 36, Damage:{Min: 25, Max: 40}, Special:{Reach:31}, TwoHanded: false, Shop:{Cost: 28000, Value: 8750, Shopkeeper: \"Chance\"},Item:{Type: 3,id: 13}},Unbreakable:1b, HideFlags:36,CustomModelData:10030013}"
               },
               {
                 "function": "minecraft:set_lore",
                 "lore": [
                   [
                     {"text": "Required level: ", "italic": false, "color": "gray"},
-                    {"text": "43", "italic": false, "color": "white"}
+                    {"text": "36", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "Damage: ", "italic": false, "color": "gray"}, 
-                    {"text": "62-90", "italic": false, "color": "white"}
+                    {"text": "25-40", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
-                    {"text": "Yes", "italic": false, "color": "white"}
+                    {"text": "No", "italic": false, "color": "white"}
                   ],
                   "",
-                  {"text": "The fire on the bow ignites", "color": "gray", "italic": false},
-                  {"text": "arrows to do searing damage,", "color": "gray", "italic": false},
-                  {"text": "and it can't be extinguished.", "color": "gray", "italic": false}
+                  {"text": "Has two wings that focus", "color": "gray", "italic": false},
+                  { "text": "the magic energy into the", "color": "gray", "italic": false},
+                  { "text": "diamond for attacking.", "color": "gray", "italic": false}
                 ],
                 "replace": false
               },
-
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Crypt Bow of Fire",
+                  "text": "Winged Diamond Wand",
                   "italic":false
                 }
               }

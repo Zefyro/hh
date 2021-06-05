@@ -6,39 +6,39 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:bow",
+            "name": "minecraft:warped_fungus_on_a_stick",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Stats:{Level: 43, Damage:{Min: 62, Max: 90}, Special:{Damage:{Fire: 7}}, TwoHanded: true, Shop:{Cost: 45000, Value: 15749, Shopkeeper: \"Wallace\"},Item:{Type: 2,id: 12}},Unbreakable:1b, HideFlags:36,CustomModelData:10020012}"
+                "tag": "{Stats:{Level: 26, Damage:{Min: 20, Max: 34}, Special:{Reach:33}, TwoHanded: false, Shop:{Cost: 10000, Value: 3500, Shopkeeper: \"Tiberius\"},Item:{Type: 3,id: 10}},Unbreakable:1b, HideFlags:36,CustomModelData:10030010}"
               },
               {
                 "function": "minecraft:set_lore",
                 "lore": [
                   [
                     {"text": "Required level: ", "italic": false, "color": "gray"},
-                    {"text": "43", "italic": false, "color": "white"}
+                    {"text": "26", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "Damage: ", "italic": false, "color": "gray"}, 
-                    {"text": "62-90", "italic": false, "color": "white"}
+                    {"text": "20-34", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
-                    {"text": "Yes", "italic": false, "color": "white"}
+                    {"text": "No", "italic": false, "color": "white"}
                   ],
                   "",
-                  {"text": "The fire on the bow ignites", "color": "gray", "italic": false},
-                  {"text": "arrows to do searing damage,", "color": "gray", "italic": false},
-                  {"text": "and it can't be extinguished.", "color": "gray", "italic": false}
+                  {"text": "Made with the skin of", "color": "gray", "italic": false},
+                  { "text": "a cursed reptile. It", "color": "gray", "italic": false},
+                  { "text": "possesses a little ancient,", "color": "gray", "italic": false},
+                  { "text": "mysterious magic.", "color": "gray", "italic": false}
                 ],
                 "replace": false
               },
-
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Crypt Bow of Fire",
+                  "text": "Reptile Wand",
                   "italic":false
                 }
               }

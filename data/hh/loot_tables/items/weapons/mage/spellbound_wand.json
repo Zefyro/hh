@@ -6,39 +6,37 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:bow",
+            "name": "minecraft:warped_fungus_on_a_stick",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Stats:{Level: 43, Damage:{Min: 62, Max: 90}, Special:{Damage:{Fire: 7}}, TwoHanded: true, Shop:{Cost: 45000, Value: 15749, Shopkeeper: \"Wallace\"},Item:{Type: 2,id: 12}},Unbreakable:1b, HideFlags:36,CustomModelData:10020012}"
+                "tag": "{Stats:{Level: 465, Damage:{Min: 170, Max: 185}, Special:{Reach:42}, TwoHanded: false, Shop:{Cost: 13000000, Value: 1550000, Shopkeeper: \"Bobby\"},Item:{Type: 3,id: 37}},Unbreakable:1b, HideFlags:36,CustomModelData:10030037}"
               },
               {
                 "function": "minecraft:set_lore",
                 "lore": [
                   [
                     {"text": "Required level: ", "italic": false, "color": "gray"},
-                    {"text": "43", "italic": false, "color": "white"}
+                    {"text": "465", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "Damage: ", "italic": false, "color": "gray"}, 
-                    {"text": "62-90", "italic": false, "color": "white"}
+                    {"text": "170-185", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
-                    {"text": "Yes", "italic": false, "color": "white"}
+                    {"text": "No", "italic": false, "color": "white"}
                   ],
                   "",
-                  {"text": "The fire on the bow ignites", "color": "gray", "italic": false},
-                  {"text": "arrows to do searing damage,", "color": "gray", "italic": false},
-                  {"text": "and it can't be extinguished.", "color": "gray", "italic": false}
+                  {"text": "Loaded with enchanted", "color": "gray", "italic": false},
+                  {"text": "magical powers.", "color": "gray", "italic": false}
                 ],
                 "replace": false
               },
-
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Crypt Bow of Fire",
+                  "text": "Spellbound Wand",
                   "italic":false
                 }
               }

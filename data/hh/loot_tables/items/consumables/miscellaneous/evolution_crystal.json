@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Stats:{Shop:{Cost: 0, Value: 0, Shopkeeper: [\"Payvault\"]},Item:{Type: 1002, id: 1}},CustomModelData:19003001}"
+                "tag": "{Stats:{Shop:{Cost: 0, Value: 0, Shopkeeper: [\"Ticket\"]},Item:{Type: 1002, id: 1}},CustomModelData:19003001}"
               },
               {
                 "function": "minecraft:set_lore",

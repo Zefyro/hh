@@ -6,39 +6,37 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:bow",
+            "name": "minecraft:warped_fungus_on_a_stick",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Stats:{Level: 43, Damage:{Min: 62, Max: 90}, Special:{Damage:{Fire: 7}}, TwoHanded: true, Shop:{Cost: 45000, Value: 15749, Shopkeeper: \"Wallace\"},Item:{Type: 2,id: 12}},Unbreakable:1b, HideFlags:36,CustomModelData:10020012}"
+                "tag": "{Stats:{Level: 58, Damage:{Min: 66, Max: 91}, Special:{Reach:56}, TwoHanded: true, Shop:{Cost: 98000, Value: 34300, Shopkeeper: \"Sneed\"},Item:{Type: 3,id: 21}},Unbreakable:1b, HideFlags:36,CustomModelData:10030021}"
               },
               {
                 "function": "minecraft:set_lore",
                 "lore": [
                   [
                     {"text": "Required level: ", "italic": false, "color": "gray"},
-                    {"text": "43", "italic": false, "color": "white"}
+                    {"text": "58", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "Damage: ", "italic": false, "color": "gray"}, 
-                    {"text": "62-90", "italic": false, "color": "white"}
+                    {"text": "66-91", "italic": false, "color": "white"}
                   ],
                   [
                     {"text": "TwoHanded: ", "italic": false, "color": "gray"}, 
                     {"text": "Yes", "italic": false, "color": "white"}
                   ],
                   "",
-                  {"text": "The fire on the bow ignites", "color": "gray", "italic": false},
-                  {"text": "arrows to do searing damage,", "color": "gray", "italic": false},
-                  {"text": "and it can't be extinguished.", "color": "gray", "italic": false}
+                  {"text": "Surges with the magical rage", "color": "gray", "italic": false},
+                  {"text": "of a long forgotten ruler.", "color": "gray", "italic": false}
                 ],
                 "replace": false
               },
-
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Crypt Bow of Fire",
+                  "text": "Fallen Queen's Spectre",
                   "italic":false
                 }
               }
