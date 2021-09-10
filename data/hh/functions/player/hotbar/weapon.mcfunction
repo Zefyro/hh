@@ -5,5 +5,7 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Player--------------------------#
-data modify entity @s HandItems[0] set from entity @p[tag=this] Inventory[{Slot:0b}]
+item modify entity @s weapon.mainhand hh:weapon_mainhand
+item replace entity @p[tag=this] hotbar.0 from entity @s weapon.mainhand
+item replace entity @s weapon.mainhand from entity @p[tag=this] hotbar.0
 #----------------------------------------------------------#

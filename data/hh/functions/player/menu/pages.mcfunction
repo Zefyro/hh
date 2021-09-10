@@ -5,7 +5,5 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Player--------------------------#
-#execute unless entity @s[nbt={Inventory:[{Slot:9b}]}] run clear @s #hh:menu{MenuSlot:0b}
-#execute unless entity @s[nbt={Inventory:[{Slot:9b}]}] run loot replace entity @s inventory.0 loot hh:items/menu/inventory/buttons
-
+loot replace entity @s inventory.0 loot hh:items/menu/inventory/buttons
 #----------------------------------------------------------#

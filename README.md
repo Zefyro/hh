@@ -30,6 +30,7 @@ Feel free to join my [discord server](https://discord.gg/grz5UCW).
 - [ ] Chopping
 - [ ] NPCs
   - [ ] Shops
+  - [ ] Bank
   - [ ] Dialogue
 - [ ] Missions
 - [ ] Pets

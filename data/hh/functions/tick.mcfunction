@@ -10,4 +10,6 @@ execute as @a[tag=HH.Stats] at @s run function hh:classes/main
 execute as @e[tag=HH.Monster] at @s run function hh:mobs/main
 function hh:npc/main
 execute as @a at @s run function hh:player/main
+
+kill @e[type=item,nbt={Item:{tag:{OnMainHand:1b}}}]
 #----------------------------------------------------------#

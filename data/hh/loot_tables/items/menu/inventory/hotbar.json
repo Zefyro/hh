@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "name": "minecraft:written_book",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -25,7 +25,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "name": "minecraft:written_book",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -44,7 +44,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "name": "minecraft:written_book",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -86,7 +86,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "name": "minecraft:written_book",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -105,7 +105,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "name": "minecraft:written_book",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -124,7 +124,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "name": "minecraft:written_book",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",

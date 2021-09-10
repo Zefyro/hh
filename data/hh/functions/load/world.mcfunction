@@ -40,4 +40,6 @@ gamerule showDeathMessages false
 gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks true
 gamerule universalAnger true
+#> Forceload
+forceload add 0 0
 #----------------------------------------------------------#
