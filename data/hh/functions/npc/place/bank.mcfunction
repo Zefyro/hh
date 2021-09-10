@@ -4,13 +4,7 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Load---------------------------#
-function hh:load/world
-function hh:load/constants
-function hh:math/load
-function hh:stats/load
-function hh:npc/load
-function hh:player/load
-#--------------------------Message-------------------------#
-say Reloaded!
+#--------------------------Place---------------------------#
+execute align xyz positioned ~.5 ~ ~.5 run summon armor_stand ~ ~ ~ {Invulnerable:1b,NoGravity:1b,Tags:["NPC.Bank","NPC"]}
+setblock ~ ~ ~ ender_chest
 #----------------------------------------------------------#

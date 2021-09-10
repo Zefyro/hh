@@ -1,0 +1,537 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:0b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:2b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:3b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:4b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:5b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:6b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:7b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:8b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:9b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:10b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:11b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:12b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:13b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:14b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:15b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:16b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:17b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:18b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:19b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:20b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:21b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:barrier",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:22b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": { "text":"Back", "italic": false }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:23b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:24b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:25b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:26b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:3b,NPCSlot:27b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

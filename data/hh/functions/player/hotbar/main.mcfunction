@@ -4,13 +4,10 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Load---------------------------#
-function hh:load/world
-function hh:load/constants
-function hh:math/load
-function hh:stats/load
-function hh:npc/load
-function hh:player/load
-#--------------------------Message-------------------------#
-say Reloaded!
+#--------------------------Player--------------------------#
+loot replace entity @s hotbar.1 loot hh:items/menu/inventory/hotbar
+scoreboard players operation .search ID = @s ID
+tag @s add this
+execute as @e[type=armor_stand,tag=Player] if score @s ID = .search ID run function hh:player/hotbar/weapon
+tag @s remove this
 #----------------------------------------------------------#

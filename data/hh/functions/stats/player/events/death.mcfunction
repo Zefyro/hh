@@ -5,6 +5,6 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Death---------------------------#
-scoreboard players set @s M.Health 2000
-scoreboard players set @s Health 200
+scoreboard players operation @s M.Health = @s M.MaxHealth
+scoreboard players operation @s Health = @s MaxHealth
 #----------------------------------------------------------#

@@ -5,6 +5,6 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #---------------------------Tick---------------------------#
-replaceitem entity @s hotbar.8 arrow
+item replace entity @s hotbar.8 with arrow
 title @s actionbar [{"score": {"name": "@s", "objective": "Health"},"color": "red"},{"text":" / ","color": "red"},{"score": {"name": "@s", "objective": "MaxHealth"},"color": "red"},{"text":" ❤   ","color": "red"},{"score": {"name": "@s","objective": "XP"},"color": "gold"},{"text":" / ","color": "gold"},{"score": {"name": "@s","objective": "LevXP"},"color": "gold"},{"text":" XP","color": "gold"}]
 #----------------------------------------------------------#

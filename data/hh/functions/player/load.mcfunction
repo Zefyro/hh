@@ -4,13 +4,8 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Load---------------------------#
-function hh:load/world
-function hh:load/constants
-function hh:math/load
-function hh:stats/load
-function hh:npc/load
-function hh:player/load
-#--------------------------Message-------------------------#
-say Reloaded!
+#--------------------------Player--------------------------#
+scoreboard objectives add InvMenuPage dummy
+scoreboard objectives add P.InvMenuPage dummy
+scoreboard objectives add InvMenuItem dummy
 #----------------------------------------------------------#

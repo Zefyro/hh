@@ -2,7 +2,7 @@
 
 The HH datapack is for a map I'm currently working on.
 
-Feel free to join the project's [discord server](https://discord.gg/xfeChMBtC2).
+Feel free to join my [discord server](https://discord.gg/grz5UCW).
 
 # TODO
 - [ ] Monsters

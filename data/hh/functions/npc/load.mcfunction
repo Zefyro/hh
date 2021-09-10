@@ -4,13 +4,9 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Load---------------------------#
-function hh:load/world
-function hh:load/constants
-function hh:math/load
-function hh:stats/load
-function hh:npc/load
-function hh:player/load
-#--------------------------Message-------------------------#
-say Reloaded!
+#---------------------------NPC----------------------------#
+scoreboard objectives add P.NPCPage dummy
+scoreboard objectives add NPCPage dummy
+scoreboard objectives add NPCType dummy
+scoreboard objectives add NPCOpen minecraft.custom:minecraft.open_enderchest
 #----------------------------------------------------------#

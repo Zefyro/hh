@@ -4,13 +4,8 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Load---------------------------#
-function hh:load/world
-function hh:load/constants
-function hh:math/load
-function hh:stats/load
-function hh:npc/load
-function hh:player/load
-#--------------------------Message-------------------------#
-say Reloaded!
+#--------------------------Player--------------------------#
+#execute unless entity @s[nbt={Inventory:[{Slot:9b}]}] run clear @s #hh:menu{MenuSlot:0b}
+#execute unless entity @s[nbt={Inventory:[{Slot:9b}]}] run loot replace entity @s inventory.0 loot hh:items/menu/inventory/buttons
+
 #----------------------------------------------------------#

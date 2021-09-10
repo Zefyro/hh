@@ -70,4 +70,7 @@ scoreboard objectives add z dummy
 scoreboard objectives add dx dummy
 scoreboard objectives add dy dummy
 scoreboard objectives add dz dummy
+#--------------------------Money---------------------------#
+scoreboard objectives add Money dummy
+scoreboard objectives add Bank dummy
 #----------------------------------------------------------#

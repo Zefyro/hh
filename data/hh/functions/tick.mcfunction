@@ -8,4 +8,6 @@
 execute as @a[tag=HH.Stats] at @s run function hh:stats/main
 execute as @a[tag=HH.Stats] at @s run function hh:classes/main
 execute as @e[tag=HH.Monster] at @s run function hh:mobs/main
+function hh:npc/main
+execute as @a at @s run function hh:player/main
 #----------------------------------------------------------#

@@ -4,13 +4,9 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#---------------------------Load---------------------------#
-function hh:load/world
-function hh:load/constants
-function hh:math/load
-function hh:stats/load
-function hh:npc/load
-function hh:player/load
-#--------------------------Message-------------------------#
-say Reloaded!
+#---------------------------NPC----------------------------#
+execute if score @s NPCOpen matches 1.. run function hh:npc/type
+execute if score @s NPCType matches 1 run function hh:npc/bank/button
+execute if score @s NPCType matches 2 run function hh:npc/shop/button
+clear @s #hh:menu{Menu:3b}
 #----------------------------------------------------------#

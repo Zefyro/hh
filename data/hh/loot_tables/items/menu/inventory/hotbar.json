@@ -1,0 +1,142 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:2b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:3b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:fill_player_head",
+                            "entity": "this"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:4b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": { "text":"Character", "italic": false }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:5b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:6b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:7b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
