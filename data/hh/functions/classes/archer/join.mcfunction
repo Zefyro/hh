@@ -36,6 +36,9 @@ scoreboard players set @s Power 0
 scoreboard players set @s Range 3
 scoreboard players set @s Magic 0
 scoreboard players set @s Artillery 0
+#> Points
+scoreboard players set @s SkillPoints 1
+scoreboard players set @s AbilityPoints 3
 #-------------------------Inventory------------------------#
 # function hh:classes/archer/inventory
 #----------------------------------------------------------#

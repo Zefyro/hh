@@ -63,6 +63,9 @@ scoreboard objectives add DefensiveOutput dummy
 scoreboard objectives add Level level
 scoreboard objectives add XP dummy
 scoreboard objectives add LevXP dummy
+#--------------------------Skills--------------------------#
+scoreboard objectives add SkillPoints dummy
+scoreboard objectives add AbilityPoints dummy
 #-------------------------Position-------------------------#
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy

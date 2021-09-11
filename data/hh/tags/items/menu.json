@@ -8,6 +8,9 @@
         "minecraft:red_stained_glass_pane",
         "minecraft:green_stained_glass_pane",
         "minecraft:yellow_stained_glass_pane",
-        "minecraft:player_head"
+        "minecraft:player_head",
+        "minecraft:glass_pane",
+        "minecraft:experience_bottle",
+        "minecraft:glass_bottle"
     ]
 }

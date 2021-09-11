@@ -5,7 +5,7 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Player--------------------------#
-loot replace entity @s hotbar.1 loot hh:items/menu/inventory/hotbar
+#loot replace entity @s hotbar.1 loot hh:items/menu/hotbar
 scoreboard players operation .search ID = @s ID
 tag @s add this
 execute as @e[type=armor_stand,tag=Player] if score @s ID = .search ID run function hh:player/hotbar/weapon

@@ -2,7 +2,7 @@
 
 The HH datapack is for a map I'm currently working on.
 
-Feel free to join my [discord server](https://discord.gg/grz5UCW).
+Feel free to join my [discord server](https://discord.gg/grz5UCW) or the project's [discord server](https://discord.gg/xfeChMBtC2).
 
 # TODO
 - [ ] Monsters
@@ -32,5 +32,6 @@ Feel free to join my [discord server](https://discord.gg/grz5UCW).
   - [ ] Shops
   - [ ] Bank
   - [ ] Dialogue
+- [ ] Inventory Menu
 - [ ] Missions
 - [ ] Pets

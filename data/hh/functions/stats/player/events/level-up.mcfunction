@@ -6,6 +6,8 @@
 ############################################################
 #--------------------------Level---------------------------#
 experience add @s 1 levels
+scoreboard players add @s AbilityPoints 3
+scoreboard players add @s SkillPoints 1
 scoreboard players operation @s XP -= @s LevXP
 playsound block.note_block.bell player @s ~ ~ ~
 #----------------------------------------------------------#

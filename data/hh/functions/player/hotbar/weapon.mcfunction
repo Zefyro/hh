@@ -5,7 +5,6 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #--------------------------Player--------------------------#
-item modify entity @s weapon.mainhand hh:weapon_mainhand
 item replace entity @p[tag=this] hotbar.0 from entity @s weapon.mainhand
 item replace entity @s weapon.mainhand from entity @p[tag=this] hotbar.0
 #----------------------------------------------------------#

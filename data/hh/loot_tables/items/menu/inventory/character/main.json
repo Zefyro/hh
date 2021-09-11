@@ -1,0 +1,673 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:0b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:2b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Health",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "Health: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Health"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": " / ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "MaxHealth"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:3b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:4b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:5b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:6b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:7b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:8b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:fill_player_head",
+                            "entity": "this"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:9b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "selector": "@s",
+                                    "color": "green",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "   ID: ",
+                                    "color": "dark_gray",
+                                    "italic": false
+                                },
+                                {
+                                    "score": {
+                                        "name": "@s",
+                                        "objective": "ID"
+                                    },
+                                    "italic": false,
+                                    "color": "dark_gray"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                "",
+                                [
+                                    {
+                                        "text": "Level: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Level"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Experience: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "XP"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": " / ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "LevXP"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Money: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "text": "$",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Money"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:10b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:11b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:12b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:13b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:14b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:15b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:16b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:barrier",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:17b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Back",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_bottle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:18b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Skills",
+                                "italic": false,
+                                "color": "white"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "You don't have",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "any skill points.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:19b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:20b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:21b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:22b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:23b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:24b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:25b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Menu:1b,MenuSlot:26b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
