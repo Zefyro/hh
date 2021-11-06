@@ -1,0 +1,11 @@
+############################################################
+#            This function was coded by Zefyro             #
+#         Please don't claim this as your own work         #
+# https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
+#                https://github.com/Zefyro                 #
+############################################################
+#----------------------------MP----------------------------#
+scoreboard players remove @s AbilityPoints 1
+scoreboard players add @s MP 10
+scoreboard players add @s MaxMP 10
+#----------------------------------------------------------#

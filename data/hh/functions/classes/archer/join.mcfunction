@@ -21,16 +21,17 @@ scoreboard players set @s Health 200
 scoreboard players set @s MaxHealth 200
 scoreboard players set @s M.MaxHealth 2000
 scoreboard players set @s M.Health 2000
-#> Mana
-scoreboard players set @s BaseMana 0
-scoreboard players set @s Mana 0
-scoreboard players set @s ManaRegen 0
-scoreboard players set @s ManaRegenTimer 600
-scoreboard players set @s BonusMana 0
+#> MP
+scoreboard players set @s MP 0
+scoreboard players set @s MaxMP 0
+scoreboard players set @s MPRegen 0
+scoreboard players set @s MPRegenTimer 600
 #> Money
 scoreboard players set @s Money 0
 #> Defense
 scoreboard players set @s Defense 1
+#> Dexterity
+scoreboard players set @s Dexterity 0
 #> Class Stats
 scoreboard players set @s Power 0
 scoreboard players set @s Range 3

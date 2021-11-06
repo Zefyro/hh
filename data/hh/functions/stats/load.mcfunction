@@ -43,6 +43,7 @@ scoreboard objectives add S.Primary.Type dummy
 scoreboard objectives add S.Secondary.Type dummy
 scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt
 #--------------------------Stats---------------------------#
+scoreboard objectives add Dexterity dummy
 scoreboard objectives add Power dummy
 scoreboard objectives add Range dummy
 scoreboard objectives add Magic dummy
@@ -56,6 +57,11 @@ scoreboard objectives add M.Health dummy
 scoreboard objectives add M.MaxHealth dummy
 scoreboard objectives add DamageTaken dummy
 scoreboard objectives add DamageResisted minecraft.custom:minecraft.damage_resisted
+#----------------------------MP----------------------------#
+scoreboard objectives add MP dummy
+scoreboard objectives add MaxMP dummy
+scoreboard objectives add MPRegen dummy
+scoreboard objectives add MPRegenTimer dummy
 #-------------------------Defense--------------------------#
 scoreboard objectives add Defense dummy
 scoreboard objectives add DefensiveOutput dummy

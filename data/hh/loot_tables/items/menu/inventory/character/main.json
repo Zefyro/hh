@@ -53,7 +53,7 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "text": "Health",
+                                "text": "HP",
                                 "italic": false
                             }
                         },
@@ -64,7 +64,7 @@
                             [
                                 [
                                     {
-                                        "text": "Health: ",
+                                        "text": "HP: ",
                                         "italic": false,
                                         "color": "gray"
                                     },
@@ -89,7 +89,28 @@
                                         "italic": false,
                                         "color": "white"
                                     }
-                                ]
+                                ],
+                                "",
+                                {
+                                    "text": "Your current and total",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "health. Having more health",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "allows you to take more",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "damage without dying.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
                             ]
                         }
                     ]
@@ -109,7 +130,66 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": ""
+                            "name": {
+                                "text": "MP",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "MP: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "MP"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": " / ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "MaxMP"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "Current and total magic",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "points are used for special",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "attacks and are specially",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "important for wizards.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -128,7 +208,53 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": ""
+                            "name": {
+                                "text": "Dexterity",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "Dexterity: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Dexterity"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "Dexterity increases your",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "chance of doing critical",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "hits as well as increasing",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "your movement speed.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -147,7 +273,69 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": ""
+                            "name": {
+                                "text": "Defense",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "Defense: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Defense"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                [
+                                    {
+                                        "text": "Defensive Output: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "DefensiveOutput"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "Defense helps you fend off",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "enemy attakcs. The higher",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "your defense is, the less",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "danage you take.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }

@@ -6,17 +6,9 @@
 ############################################################
 #--------------------------Player--------------------------#
 #> Main page
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:13b,id:"minecraft:player_head"}]}] run scoreboard players set @s InvMenuPage 2
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:17b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 3
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:19b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 4
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:20b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 5
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:21b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 6
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:22b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 7
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:23b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 8
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:24b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 9
-execute if score @s P.InvMenuPage matches 1 unless entity @s[nbt={Inventory:[{Slot:25b,id:"minecraft:yellow_stained_glass_pane"}]}] run scoreboard players set @s InvMenuPage 10
+execute if score @s P.InvMenuPage matches 1 run function hh:player/menu/pages/main
 #> Character page
-execute if score @s P.InvMenuPage matches 2 unless entity @s[nbt={Inventory:[{Slot:26b,id:"minecraft:barrier"}]}] run scoreboard players set @s InvMenuPage 1
+execute if score @s P.InvMenuPage matches 2 run function hh:player/menu/pages/character
 #> Options page
 execute if score @s P.InvMenuPage matches 3 unless entity @s[nbt={Inventory:[{Slot:26b,id:"minecraft:barrier"}]}] run scoreboard players set @s InvMenuPage 1
 #> Missions page
