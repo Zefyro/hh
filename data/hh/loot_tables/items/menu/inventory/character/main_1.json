@@ -25,7 +25,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glass_pane",
+                    "name": "minecraft:light_gray_stained_glass_pane",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -52,7 +52,66 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": ""
+                            "name": {
+                                "text": "HP",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "HP: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Health"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": " / ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "MaxHealth"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "Your current and total",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "health. Having more health",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "allows you to take more",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "damage without dying.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -71,7 +130,66 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": ""
+                            "name": {
+                                "text": "MP",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "MP: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "MP"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "text": " / ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "MaxMP"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "Current and total magic",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "points are used for special",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "attacks and are specially",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "important for wizards.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -90,7 +208,53 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": ""
+                            "name": {
+                                "text": "Dexterity",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "Dexterity: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Dexterity"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "Dexterity increases your",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "chance of doing critical",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "hits as well as increasing",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "your movement speed.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -109,7 +273,69 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": ""
+                            "name": {
+                                "text": "Defense",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": 
+                            [
+                                [
+                                    {
+                                        "text": "Defense: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Defense"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                [
+                                    {
+                                        "text": "Defensive Output: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "DefensiveOutput"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                "",
+                                {
+                                    "text": "Defense helps you fend off",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "enemy attakcs. The higher",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "your defense is, the less",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "danage you take.",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -120,7 +346,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glass_pane",
+                    "name": "minecraft:light_gray_stained_glass_pane",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -258,6 +484,26 @@
                                         "italic": false,
                                         "color": "white"
                                     }
+                                ],
+                                [
+                                    {
+                                        "text": "Money: ",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "text": "$",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "score": {
+                                            "name": "@s",
+                                            "objective": "Money"
+                                        },
+                                        "italic": false,
+                                        "color": "white"
+                                    }
                                 ]
                             ]
                         }
@@ -270,7 +516,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glass_pane",
+                    "name": "minecraft:light_gray_stained_glass_pane",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -365,7 +611,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glass_pane",
+                    "name": "minecraft:light_gray_stained_glass_pane",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -442,12 +688,10 @@
                         {
                             "function": "minecraft:set_lore",
                             "entity": "this",
-                            "lore": 
-                            [
+                            "lore": [
                                 [
                                     {
                                         "text": "You have ",
-                                        "bold": false,
                                         "italic": false,
                                         "color": "gray"
                                     },
@@ -456,20 +700,16 @@
                                             "name": "@s",
                                             "objective": "SkillPoints"
                                         },
-                                        "bold": true,
                                         "italic": false,
-                                        "color": "white"
+                                        "color": "white",
+                                        "bold": true
                                     },
                                     {
-                                        "text": " unspent",
-                                        "bold": false,
-                                        "italic": false,
-                                        "color": "gray"
+                                        "text": " unspent"
                                     }
                                 ],
                                 {
                                     "text": "skill point(s).",
-                                    "bold": false,
                                     "italic": false,
                                     "color": "gray"
                                 }
@@ -484,7 +724,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glass_pane",
+                    "name": "minecraft:light_gray_stained_glass_pane",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -579,7 +819,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glass_pane",
+                    "name": "minecraft:light_gray_stained_glass_pane",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
