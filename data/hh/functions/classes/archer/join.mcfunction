@@ -41,5 +41,5 @@ scoreboard players set @s Artillery 0
 scoreboard players set @s SkillPoints 1
 scoreboard players set @s AbilityPoints 3
 #-------------------------Inventory------------------------#
-# function hh:classes/archer/inventory
+function hh:classes/archer/inventory
 #----------------------------------------------------------#
