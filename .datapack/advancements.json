@@ -1,1 +1,1 @@
-{"hh":{"$adv":{"dealt_damage":["requirement"],"new_player":["requirement"],"test":["requirement"]}}}
+{"rx.playerdb":{"$adv":{"first_login":["requirement"]}},"itemdb":{"$adv":{"versioner_interract":["requirement"],"inv_changed":["requirement"]}},"hh":{"$adv":{"new_player":["requirement"],"dealt_damage":["requirement"]}}}

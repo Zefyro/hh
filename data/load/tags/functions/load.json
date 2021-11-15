@@ -1,0 +1,7 @@
+{
+    "values": [
+        "#rx.playerdb:load",
+        "itemdb:init",
+        "#hh:load"
+    ]
+}

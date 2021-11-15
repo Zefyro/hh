@@ -11,3 +11,4 @@ execute as @e[tag=HH.Monster] at @s run function hh:mobs/main
 function hh:npc/main
 execute as @a at @s run function hh:player/main
 #----------------------------------------------------------#
+schedule function hh:tick 1t replace

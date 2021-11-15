@@ -1,1 +1,1 @@
-{}
+{"minecraft":{"$tags":["load"]},"load":{"$tags":["load"],"_private":{"$tags":["load","init"]}},"rx.playerdb":{"$tags":["load"],"api":{"$tags":["on_entry_add","on_name_change"]}},"hh":{"$tags":["load"]}}

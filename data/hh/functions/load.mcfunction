@@ -14,3 +14,4 @@ function hh:player/load
 #--------------------------Message-------------------------#
 say Reloaded!
 #----------------------------------------------------------#
+schedule function hh:tick 1t replace
