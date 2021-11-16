@@ -6,5 +6,5 @@
 ############################################################
 #--------------------------Player--------------------------#
 item replace entity @p[tag=this] hotbar.0 from entity @s weapon.mainhand
-item replace entity @s weapon.mainhand from entity @p[tag=this] hotbar.0
+item replace entity @p[tag=this] weapon.offhand from entity @s weapon.offhand
 #----------------------------------------------------------#

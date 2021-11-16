@@ -4,8 +4,10 @@
 # https://www.youtube.com/channel/UCFvS2PqA3qt1MgR3C9X_bog #
 #                https://github.com/Zefyro                 #
 ############################################################
-#--------------------------Starter-------------------------#
-loot replace entity @s weapon.mainhand loot hh:items/weapons/archer/slingshot
-loot replace entity @s armor.feet loot hh:items/armor/boots/white_shoes
-function hh:player/hotbar/weapon
+#--------------------------Player--------------------------#
+#loot replace entity @s hotbar.1 loot hh:items/menu/hotbar
+scoreboard players operation .search ID = @s ID
+tag @s add this
+execute as @e[type=armor_stand,tag=Player] if score @s ID = .search ID run function hh:player/armor/set
+tag @s remove this
 #----------------------------------------------------------#

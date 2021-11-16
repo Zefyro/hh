@@ -14,8 +14,6 @@ experience set @s 1 levels
 experience set @s 0 points
 scoreboard players set @s XP 0
 scoreboard players set @s LevXP 51
-scoreboard players set @s APoints 0
-scoreboard players set @s SSPoints 1
 #> Health
 scoreboard players set @s Health 200
 scoreboard players set @s MaxHealth 200

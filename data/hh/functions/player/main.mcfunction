@@ -7,4 +7,5 @@
 #--------------------------Player--------------------------#
 function hh:player/menu/pages
 function hh:player/hotbar/main
+function hh:player/armor/main
 #----------------------------------------------------------#

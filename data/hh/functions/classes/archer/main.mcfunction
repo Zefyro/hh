@@ -5,6 +5,6 @@
 #                https://github.com/Zefyro                 #
 ############################################################
 #---------------------------Tick---------------------------#
-item replace entity @s hotbar.8 with arrow
+execute unless entity @s[nbt={Inventory:[{Slot:8b,id:"minecraft:arrow",Count:1b}]}] run function hh:classes/archer/arrow
 title @s actionbar [{"score": {"name": "@s", "objective": "Health"},"color": "red"},{"text":" / ","color": "red"},{"score": {"name": "@s", "objective": "MaxHealth"},"color": "red"},{"text":" ❤   ","color": "red"},{"score": {"name": "@s","objective": "XP"},"color": "gold"},{"text":" / ","color": "gold"},{"score": {"name": "@s","objective": "LevXP"},"color": "gold"},{"text":" XP","color": "gold"}]
 #----------------------------------------------------------#
